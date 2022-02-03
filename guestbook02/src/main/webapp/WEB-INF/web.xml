@@ -11,12 +11,12 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>GuestbookController</display-name>
-    <servlet-name>GuestbookController</servlet-name>
-    <servlet-class>com.poscoict.guestbook.controller.GuestbookController</servlet-class>
+    <display-name>guestbookController</display-name>
+    <servlet-name>guestbookController</servlet-name>
+    <servlet-class>com.poscoict.guestbook.controller.guestbookController</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>GuestbookController</servlet-name>
+    <servlet-name>guestbookController</servlet-name>
     <url-pattern>/gb</url-pattern>
   </servlet-mapping>
 </web-app>
